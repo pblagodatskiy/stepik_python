@@ -1,0 +1,16 @@
+a = '_abcdefgh'
+cor_1 = input()
+letter_1 = cor_1[0]
+letter_1 = a.find(letter_1)
+number_1 = cor_1[1]
+cor_2 = input()
+letter_2 = cor_2[0]
+letter_2 = a.find(letter_2)
+number_2 = cor_2[1]
+
+chetnoe_1 = (int(letter_1)+int(number_1))%2 == 0
+chetnoe_2 = (int(letter_2)+int(number_2))%2 == 0
+if (chetnoe_1 == True and chetnoe_2 == True) or (chetnoe_1 == False and chetnoe_2 == False):
+    print ('YES')
+else:
+    print ('NO')
