@@ -1,0 +1,14 @@
+a = int (input ())
+
+if a<2:
+    print ('Младенец')
+elif 2<=a<4:
+    print ('Малыш')
+elif 4<=a<12:
+    print('Ребенок')
+elif 12<=a<19:
+    print('Подросток')
+elif 19<=a<65:
+    print('Взрослый человек')
+else:
+    print ('Пожилой человек')
